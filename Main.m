@@ -1,5 +1,6 @@
-% This is the main program for 3D MOF
-
+% This is the main program for 3D MOF for simualting the energy transfer 
+% from Ru to Os, with randomly distribute Os and Ru site. The output file
+% is the time dependent Ru excited states population.
 
 mytime=clock; mytimefmt=datestr(mytime);
 fprintf(1,'Program Start at %s \n', mytimefmt);
