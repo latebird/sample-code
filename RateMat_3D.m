@@ -1,3 +1,10 @@
+%
+%  returns the rate matrix with randomly distributed energy acceptor Os site and Ru site.
+%  The input of this function including the dimiesion of the MOF and the elementary rate constants 
+%  such as hopping rate between Ru site and Os site and their excited state lifetimies
+%
+
+
 function [Rate_Mtx,Os_idx] = RateMat_3D(transitionRate,DecayRate,...
                              length, width, height,num_Os)
 n             = length*width*height+2;
