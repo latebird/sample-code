@@ -1,3 +1,5 @@
+
+% this function check the ensmeble average for the simulations.
 function [flag]=Cverg_check(n,delta_n,Fi,Fi_pre,tol)
 
    Fi    = Fi/n;
