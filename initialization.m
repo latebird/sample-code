@@ -1,3 +1,5 @@
+% this function return the element hopping rate between Ru and Os as a martix.
+
 function [transitionRate,DecayRate] = ...
     initialization(kRuhop,kRuDecay,kOshop,kOsDecay,kOsTrap,kOsUntrap)
 
