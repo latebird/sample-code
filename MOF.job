@@ -1,6 +1,10 @@
 #
+#################################
+# job submission script for DSCR#
+#################################
 #!/bin/tcsh
 #
+###out put files
 #$ -o My116.out -j y
 #$ -e My116.err
 #$ -N My116
@@ -8,8 +12,10 @@
 #$ -S /bin/tcsh -cwd
 #$ -pe threaded 4
 
+## working directory
 cd /home/dbchem/jl354/MOF4New/116
 
+#runing code
 matlabR2010b -nojvm -nodisplay -r "maxNumCompThreads=4;Main;quit"
 #
 # Creat TMPDIR on the Running node
