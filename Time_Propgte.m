@@ -1,6 +1,14 @@
+% This is the function simualte the excitation propogation with a defined 
+% rate matrix. The return of this function is the a time-dependent Ru excited 
+% state populaiton.
+
 function [F,RuOssum,RuPopu_Plus_RuEmi,OsEmi,OsPopu_unNormal] = Time_Propgte(lengthmof,tsteps,num_Os,U,m, OsExciteOpt)
+
+     
      RuPopu_Plus_RuEmi = zeros(1,tsteps);
      OsEmi             = zeros(1,tsteps);
+     
+     % define the intial excited state 
      C0 =ones(1,lengthmof);
      C0(lengthmof-1)= 0;
      C0(lengthmof)  = 0;
@@ -16,12 +24,15 @@ function [F,RuOssum,RuPopu_Plus_RuEmi,OsEmi,OsPopu_unNormal] = Time_Propgte(leng
         
      P(1:lengthmof,1)=C0;
      x=sum(P(:,1));
+     
+     % Doing the time propagation
      for k=2:tsteps
          P(:,k) =  U*P(:,k-1);
          x0=sum(P(:,k))/x;
          P(:,k) = P(:,k)/x0;        
      end 
-
+     
+     % Computing the excited sates population on both Ru and Os
      for k=1:num_Os
          F=P(m(k), 1:tsteps)+F;
      end 
@@ -38,6 +49,5 @@ function [F,RuOssum,RuPopu_Plus_RuEmi,OsEmi,OsPopu_unNormal] = Time_Propgte(leng
      OsPopu_unNormal=F;
      F = F/Fmax;
      
-    
      
 end
