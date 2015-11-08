@@ -1,0 +1,18 @@
+#
+#!/bin/tcsh
+#
+#$ -o My116.out -j y
+#$ -e My116.err
+#$ -N My116
+
+#$ -S /bin/tcsh -cwd
+#$ -pe threaded 4
+
+cd /home/dbchem/jl354/MOF4New/116
+
+matlabR2010b -nojvm -nodisplay -r "maxNumCompThreads=4;Main;quit"
+#
+# Creat TMPDIR on the Running node
+#
+
+

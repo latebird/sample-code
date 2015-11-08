@@ -1,0 +1,95 @@
+/var/spool/gridengine/dhvi-n07/active_jobs/137139.1/pe_hostfile
+dhvi-n07
+dhvi-n07
+dhvi-n07
+dhvi-n07
+dhvi-n07
+dhvi-n07
+dhvi-n07
+dhvi-n07
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.11.0.584 (R2010b) 64-bit (glnxa64)
+                              August 16, 2010
+
+{Warning: Name is nonexistent or not a directory:
+/opt/matlabR2010b/help/toolbox/dspblks/examples.} 
+{Warning: Name is nonexistent or not a directory:
+/opt/matlabR2010b/help/toolbox/commblks/examples.} 
+{Warning: Name is nonexistent or not a directory:
+/opt/matlabR2010b/help/toolbox/comm/examples.} 
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+existent or not a directory:
+/opt/matlabR2010b/help/toolbox/comm/examples.} 
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+Program Start at 28-Jan-2013 21:33:45 
+ Current iteration :  6 
+ Current iteration :  12 
+ Current iteration :  18 
+ Current iteration :  24 
+ Current iteration :  30 
+ Current iteration :  36 
+ Current iteration :  42 
+ Current iteration :  48 
+ Current iteration :  54 
+ Current iteration :  60 
+ Current iteration :  66 
+ Current iteration :  72 
+ Current iteration :  78 
+Calculation with tolerence 1 converged 
+EnT efficency in 3D  MOF =    0.051 
+ Current iteration :  84 
+ Current iteration :  90 
+ Current iteration :  96 
+ Current iteration :  102 
+Calculation with tolerence 2 converged 
+EnT efficency in 3D  MOF =    0.048 
+ Current iteration :  108 
+ Current iteration :  114 
+ Current iteration :  120 
+ Current iteration :  126 
+ Current iteration :  132 
+ Current iteration :  138 
+ Current iteration :  144 
+ Current iteration :  150 
+ Current iteration :  156 
+ Current iteration :  162 
+ Current iteration :  168 
+ Current iteration :  174 
+ Current iteration :  180 
+ Current iteration :  186 
+ Current iteration :  192 
+ Current iteration :  198 
+ Current iteration :  204 
+ Current iteration :  210 
+ Current iteration :  216 
+ Current iteration :  222 
+ Current iteration :  228 
+ Current iteration :  234 
+ Current iteration :  240 
+ Current iteration :  246 
+ Current iteration :  252 
+ Current iteration :  258 
+ Current iteration :  264 
+ Current iteration :  270 
+ Current iteration :  276 
+ Current iteration :  282 
+ Current iteration :  288 
+ Current iteration :  294 
+ Current iteration :  300 
+ Current iteration :  306 
+ Current iteration :  312 
+ Current iteration :  318 
+ Current iteration :  324 
+ Current iteration :  330 
+Calculation with tolerence 3 converged 
+EnT efficency in 3D  MOF =    0.056 
